@@ -1,0 +1,335 @@
+@media screen and (min-width:2560px) {
+  .judul-cv h2 {
+      font-size: 74px;
+  }
+
+  .judul-cv p {
+      font-weight: normal;
+  }
+
+  .image-box {
+      width: 640px;
+      height: 640px;
+  }
+  
+  .capability-item {
+      margin: 36px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container-hero {
+    max-width: 1320px;
+  }
+
+  .image-box {
+    width: 440px;
+    height: 440px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container-hero {
+    max-width: 1140px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container-hero {
+    max-width: 960px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container-hero {
+    max-width: 720px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .container-hero {
+    max-width: 540px;
+  }
+}
+
+@media screen and (max-width: 1580px ) {
+  .certificate-wrapper {
+    margin-inline: 3rem;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .judul-cv h2 {
+      font-size: 72px;
+  }
+
+  .judul-cv p {
+      font-size: 36px;
+  }
+
+  .image-box {
+      width: 380px;
+      height: 380px;
+  }
+
+  .capability-item {
+      margin: 24px;
+  }
+  
+  .title-certificate p {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 1320px) {
+  .certificate-text h1 {
+    /* font-size: 36px; */
+    margin: 0;
+  }
+  
+  .title-certificate p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+.daftar-nav {
+  flex-wrap: wrap;
+}
+
+.scroll {
+  display: block;
+}
+
+.item-nav {
+  display: none;
+  width: 100%;
+  text-align: center;
+  margin: 20px;
+}
+
+.active {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  margin-inline: 2.4rem;
+  margin-block: 0.6rem;
+  padding: 0;
+}
+
+    #biodata {
+    padding-top: 0;
+  }
+
+  .biodata {
+    padding-inline: 1rem;
+  }
+
+  .container-biodata {
+    flex-direction: column;
+  }
+
+  .box-foto {
+    padding-inline: 0;
+    padding-block: 1rem;
+  }
+
+  .box-text {
+    padding-inline: 0;
+  }
+
+  .box-text h1, .box-text p {
+    text-align: center;
+  }
+
+  .box-text p {
+    font-size: 1.2rem;
+    max-width: 32rem;
+  }
+
+  .certificate {
+    max-width: 560px;
+  }
+  
+  .certificate-container {
+    flex-direction: column;
+  }
+
+  .certificate-container h1 {
+    font-size: 48px;
+  }
+
+  .certificate-slider {
+    max-width: 100%;
+  }
+
+  .certificate-text {
+    padding-left: 0;
+  }
+
+  .certificate-text h1 {
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .certificate-text p {
+    margin-top: 30px;
+  }
+
+  .footer {
+      display: block;
+  }
+
+  .footer-wrapper {
+      max-width: 560px;
+  }
+
+  .footer-container {
+      flex-direction: column;
+      margin: 0;
+      align-content: center;
+  }
+
+  .footer-1 {
+      text-align: justify;
+  }
+
+  .footer-1 :first-child {
+      display: none;
+  }
+  
+  .footer-2 h4 {
+      display: none;
+  }
+  
+  .footer-3 {
+      display: none;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .box-text h1, p {
+      margin-block: 8px;
+  }
+
+  .box-text h1 span {
+      display: none;
+  }
+
+  .box-text p {
+      /* font-size: 1.6rem; */
+      max-width: 42rem;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .judul-cv h2 {
+      font-size: 32px;
+  }
+
+  .judul-cv p {
+      font-size: 16px;
+  }
+
+  .image-box {
+      width: 240px;
+      height: 240px;
+  }
+
+  .body-title {
+    font-size: 52px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .box-hero {
+    width: fit-content;
+    padding: 0 !important;
+  }
+  
+  .hero-tagline h1 {
+    font-size: 32px;
+  }
+
+  .certificate-text h1 {
+    font-size: 1.2rem;
+  }
+
+  .certificate-text p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 564px) {
+  .box-foto {
+      min-width: 312px;
+      height: 312px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .box-text p {
+      display: none;
+  }
+
+  .certificate-wrapper {
+    margin: 1rem;
+  }
+
+  p {
+      font-size: 16px;
+  }
+}
+
+@media screen and (max-width:520px) {
+  .icon {
+    max-width: 5em;
+  }
+
+  .judul-cv h2 {
+      font-size: 20px;
+  }
+
+  .judul-cv p {
+      font-size: 10px;
+  }
+}
+
+@media screen and (max-width:425px) {
+  .icon {
+      margin-left: 20px;
+  }
+
+  .scroll {
+      margin: 0 20px;
+  }
+
+  .active {
+      margin-inline: 16.5px;
+      padding-block: 0;
+  }
+
+  #item-nav-1 {
+      padding-top: 8px;
+  }
+
+  .body-title {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  #hero h1 {
+    word-wrap: normal;
+  }
+  
+  .box-foto {
+      min-width: 240px;
+      height: 240px;
+  }
+
+  .body-title {
+    font-size: 20px !important;
+  }
+}

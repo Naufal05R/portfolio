@@ -1,0 +1,265 @@
+/* CERIFICATION */
+
+.judul-certification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+}
+
+.judul-certification h2 {
+  font-size: 72px;
+  margin-inline: 0;
+}
+
+.judul-certification p {
+  max-width: 32em;
+  font-size: 36px;
+  font-weight: lighter;
+  margin-top: 0;
+}
+
+.certification {
+  background: snow;
+  padding: 30px 10px;
+  text-align: center;
+}
+
+.certification-wrapper {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+  /* margin-block: 320px; */
+}
+
+.certification-item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  margin-block: 4vh;
+  margin-inline: 2vh;
+  /* margin-top: 15px; */
+  background: white;
+}
+
+.certification-item-text {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+
+.certification-item-text h3 {
+  font-size: 28px;
+  font-weight: 450;
+  margin: 0;
+  margin-bottom: 1em;
+  max-width: 90%;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.certification-item-text p {
+  font-size: 18px;
+  max-width: 1600px;
+  text-align: justify;
+  font-weight: lighter;
+  margin-left: 20px;
+}
+
+#web, #js {
+  font-size: 18px;
+}
+
+#c {
+  font-size: 18px;
+}
+
+.certification-box {
+  width: auto;
+  height: auto;
+  /* width: 430px;
+  height: 304px; */
+  overflow: hidden;
+  border-radius: 0px 0px 0 0;
+}
+
+.certification-box:hover {
+  box-shadow: 0 0 2rem .5rem rgba(0, 0, 0, 0.1);
+
+}
+
+.certification-box img {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s ease-in-out;
+}
+
+.certification-box:hover img {
+  transform: scale(1.11,1.11);
+}
+
+.certification-item-btn {
+  display: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .certification-item {
+      margin-inline: 2.4rem;
+  }
+
+  .certification-item-text h3 {
+      font-size: 36px;
+      font-weight: 450;
+      margin-left: 50px;
+  }
+
+  .certification-item-text p {
+      font-size: 28px;
+      font-weight: lighter;
+      margin-left: 50px;
+  }
+
+  #c {
+      font-size: 26px;
+  }
+
+  #web, #js {
+      font-size: 24px
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .certification-item {
+      margin-inline: 120px;
+  }
+
+  .certification-item-text h3 {
+      font-size: 54px;
+      font-weight: 450;
+
+  }
+
+  .certification-item-text p {
+      font-size: 46px;
+      font-weight: lighter;
+      margin-right: 98px;
+  }
+
+  #c {
+      font-size: 52px;
+  }
+
+  #web, #js {
+      font-size: 44px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .judul-certification h2 {
+      font-size: 58px;
+  }
+
+  .certification-item {
+      justify-content: space-around;
+  }
+
+  .certification-item-text {
+      justify-content: flex-start;
+  }
+
+  .certification-item-text h3 {
+      font-size: 24px;
+      font-weight: 450;
+      margin: 0;
+      margin-bottom: 1em;
+      max-width: 14em;
+      margin-left: 20px;
+  }
+  
+  .certification-item-text p {
+      font-size: 12px;
+      max-width: 28em;
+      margin-left: 20px;
+  }
+  
+  #web, #js {
+      font-size: 12px;
+  }
+  
+  #c {
+      font-size: 12px;
+  }    
+
+  .certification-box {
+      width: 315px;
+      height: 222.75px;
+  }
+}
+
+@media screen and (max-width:720px) {    
+  .judul-certification h2 {
+      font-size: 36px;
+  }
+
+  .certification-item {
+      box-shadow: 2px 2px 30px 2px #ccc;
+      border-radius: 10px;
+  }
+
+  .certification-item:hover {
+      box-shadow: 2px 2px 20px 2.4px #bbb;
+  }
+  
+  .certification-item-text {
+      display: none;
+  }
+
+  .certification-item {
+      margin-inline: 42px;
+      flex-wrap: wrap;
+  }
+
+  .certification-box {
+      width: auto;
+      height: auto;
+      margin: 12px;
+  }
+
+  .certification-item-btn {
+      display: block;
+      padding-bottom: 12px;
+  }
+  
+  .certificate-btn {
+      background-color: #FF9F29;
+      color: snow;
+      border-radius: 8px;
+      height: 1.4em;
+      width: 100%;
+      font-size: 1.5em;
+      border: 0;
+      margin-inline: auto;
+      padding-inline: 2vh;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .certification-item {
+      margin-inline: 1vh;
+      margin-block: 2.4vh;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .certificate-btn {
+      font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .certificate-btn {
+      font-size: 1em;
+  }
+}
